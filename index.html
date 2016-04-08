@@ -1,0 +1,25 @@
+<!--
+* Main Page:
+* Default page to represent search page for NBA players
+* Includes: CSS (format rules) Javascript (helper script to trigger php code)
+* Read README for more information
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/Design.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <script src="/scripts/triggers.js"></script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<p> Search for NBA players here!</p>
+<form id=search>
+    <input type="text" class="search" placeholder=" Search..." name="val" onkeyup="ShowPlayer(this.value)">
+    <div id="livesearch"></div>
+</form>
+<br>
+<div id="txtHint"></div>
+</body>
+</html>
